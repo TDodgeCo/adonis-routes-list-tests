@@ -1,0 +1,28 @@
+{
+  "name": "wett-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "node ./server/server.ts && encore dev-server",
+    "build-dev": "encore dev",
+    "dev": "encore dev --watch",
+    "build": "encore production --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.4.0",
+    "adonis-preset-ts": "^2.1.0",
+    "autoprefixer": "^10.4.15",
+    "file-loader": "^6.0.0",
+    "glob": "^10.3.4",
+    "postcss": "^8.4.29",
+    "postcss-loader": "^7.3.3",
+    "tailwindcss": "^3.3.3",
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.2.2"
+  }
+}
